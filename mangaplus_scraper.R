@@ -4,8 +4,11 @@
 
 # Mangaplus 2026/04  Update ----------------------------------------------
 
+library(dplyr)
+library(lubridate)
+library(tidyr)
+
 library(rvest)
-library(tidyverse)
 library(mongolite)
 
 options(chromote.timeout = 60)
